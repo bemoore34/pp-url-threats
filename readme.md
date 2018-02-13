@@ -9,10 +9,10 @@ The URL list, defined in config.ini, will be populated with entries with the fol
 host.domain.com   #phish, active, blocked, 2018/02/13 00:56:03
 
 Where:
-"phish" = threat category
-"active" = threat status
-"blocked" = Proof Point action
-"2018/02/13 00:56:03" = time added to the file
+"phish" = threat category, 
+"active" = threat status, 
+"blocked" = Proof Point action, 
+"2018/02/13 00:56:03" = time added to the file.
 
 This format is compatible with Palo Alto's dynamic URL blocklists.
 
