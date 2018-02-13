@@ -1,7 +1,7 @@
 """
 This program pulls URL message data from the Proof Point TAP SIEM API, parses it, and
-appends malicious URL prefices (host and domain) to the dynamic URL block list used by
-the GO Palo Alto firewall.
+appends malicious URL prefixes (host and domain) to a URL block list in a format compatible
+with the dynamic URL block lists used by Palo Alto firewalls.
 """
 
 import sys
